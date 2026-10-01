@@ -51,7 +51,7 @@ A modern, dark-purple UI library for Roblox (Luau), built with tweened animation
 Host the `UI` module file (raw Luau script) somewhere accessible — e.g. a public GitHub repository — and load it with `loadstring` + `HttpGet` from a **LocalScript**:
 
 ```luau
-local NovaUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/harlen999/UITESTING/refs/heads/main/UI"))()
+local NovaUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/harlen999/NovaUI/refs/heads/main/Library.lua"))()
 ```
 
 > Replace the URL above with the raw link to your own copy of the script.
@@ -61,7 +61,7 @@ local NovaUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/harlen
 ## Quick Start
 
 ```luau
-local NovaUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/harlen999/UITESTING/refs/heads/main/UI"))()
+local NovaUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/harlen999/NovaUI/refs/heads/main/Library.lua"))()
 
 local Window = NovaUI:CreateWindow({
     Title = "Nova",
